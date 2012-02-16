@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>JBehave</string>
+	<key>ordering</key>
+	<array>
+		<string>1fc46d40-380c-4163-b5a9-32ac28f6e898</string>
+		<string>BC6BA9ED-2C9B-450A-AA42-B25D22A78CEF</string>
+		<string>A2A42C42-5E49-420A-B758-9BF668493A27</string>
+		<string>5576B7B8-00C9-4668-88FF-81D2E5BFF727</string>
+		<string>7FE9D10E-E9D9-486B-87BC-4ADBEE42C7A9</string>
+		<string>378CEAB6-47F7-4544-AE99-059EB675EEB8</string>
+		<string>79DCD072-FB6E-4235-847B-921B109A410A</string>
+		<string>A6880E36-E4E9-4220-BF80-A125824C5023</string>
+		<string>4C1B36F0-C0F9-41EB-A74C-6E2BB3577D2A</string>
+		<string>80EC1E7B-260B-499E-99E0-380D2B2C8089</string>
+	</array>
+	<key>uuid</key>
+	<string>66A00DAA-CF92-4C4F-9A51-39C5A123D6FD</string>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>story</string>
+	</array>
+	<key>name</key>
+	<string>JBehave Story</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^(Narrative|Scenario)[:]?\b</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(Given|When|Then|And|Example)\b</string>
+			<key>name</key>
+			<string>keyword.control.step</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(GivenStories)[:]?\b</string>
+			<key>name</key>
+			<string>keyword.control.givenstories</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(\d+[\.\d]*)\b</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Lines starting with !-- ...</string>
+			<key>match</key>
+			<string>^(\!\-\-.*)$</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\|</string>
+			<key>name</key>
+			<string>keyword.operator</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(In order to|As a|I want to)\b</string>
+			<key>name</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.story</string>
+	<key>uuid</key>
+	<string>1fc46d40-380c-4163-b5a9-32ac28f6e898</string>
+</dict>
+</plist>

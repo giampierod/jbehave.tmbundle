@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Given ${1:precondition}
+When ${2:an_event}
+Then ${3:outcome}
+
+$0</string>
+	<key>name</key>
+	<string>Given,When,Then</string>
+	<key>scope</key>
+	<string>source.story</string>
+	<key>tabTrigger</key>
+	<string>gwt</string>
+	<key>uuid</key>
+	<string>BC6BA9ED-2C9B-450A-AA42-B25D22A78CEF</string>
+</dict>
+</plist>

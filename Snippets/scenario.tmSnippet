@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Scenario: ${1:description}${2:
+
+GivenStories: ${3:path_to_story}}
+
+Given ${4:precondition}
+When ${5:an_event}
+Then ${6:outcome}
+${7:And ${8:other_outcome}}
+${9:Example:
+|${10:first_item}|}
+
+$0</string>
+	<key>name</key>
+	<string>New Full Scenario</string>
+	<key>scope</key>
+	<string>source.story</string>
+	<key>tabTrigger</key>
+	<string>S</string>
+	<key>uuid</key>
+	<string>4C1B36F0-C0F9-41EB-A74C-6E2BB3577D2A</string>
+</dict>
+</plist>
